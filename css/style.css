@@ -1,0 +1,153 @@
+body{
+    /* background-color: #0d0d0d; */
+    background-image: url("../images/vegetables-set-left-black-slate.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #f9f9f9 !important;
+    overflow: hidden;
+}
+.logo{
+    width: 50px;
+}
+
+i , li{
+    cursor: pointer;
+}
+
+.side-nav-menu{
+    z-index: 99;
+}
+.nav-header{
+    background-color: transparent;
+}
+.nav-tab {
+    background-image: url("../images/vegetables-set-left-black-slate.jpg");
+    
+}
+
+.meal-layer{
+    width: 100%;
+    height: 100%;  
+    background-color: #f9f9f9ca;
+    top:100%;
+    transition: all ease 0.5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    /* background-color: #0d0d0d; */
+    display: flex;
+}
+
+#view_details{	
+	/* margin-left:-85px;	 */
+	border:2px solid darkgray;
+	/* color:#fff; */
+	font-size:19px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:10px 0;
+	width:172px;	
+    transition: all ease 0.4s;
+	/* opacity:0; */
+}
+
+#vieww_details{
+	border:2px solid darkgray;
+	font-size:15px;
+	text-transform:uppercase;
+    font-weight:700;
+	padding:8px 0;
+	width:100%;	
+    transition: all ease 0.4s;
+}
+
+#view_details:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+}
+#vieww_details:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+}
+
+.ing-layer{
+    width: 100%;
+    height: 80%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f9f9ca;
+    top:100%;
+    transition: all ease 0.5s;
+}
+
+
+.ingre:hover .ing-layer{
+    top: 0;
+}
+
+.ingre{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.Of{
+    position: absolute;
+    width: 100%;
+    top: 95%;
+    text-align: center;
+    left:0;
+    right: 0;
+    padding: 0 12px;
+    /* transform: translateX(-100%); */
+}
+
+
+.nameOf{
+    width: 100%;
+    background-image: url("../images/vegetables-set-left-black-slate.jpg");
+    color: #ffffff;
+    padding: 8px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
